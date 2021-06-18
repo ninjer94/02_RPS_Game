@@ -5,9 +5,9 @@
 def choice_checker(question, valid_list, error):
 
     valid = False
-    while not  valid:
+    while not valid:
 
-        # Ask user for choice  (and put choice in lowercase)
+        # Ask user for choice (and put choice in lowercase)
         response = input(question).lower()
 
         # iterates through list and if response is an item
@@ -19,8 +19,8 @@ def choice_checker(question, valid_list, error):
                 return response
 
         # output error if item not in list
-        print(error)
-        print()
+            print(error)
+            print()
 
 # Main routine goes here
 
